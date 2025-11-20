@@ -1,0 +1,22 @@
+/*/Francis Sakala 25/SCA/BCAC/024/*/
+Title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20;
+    font-weight: bold;
+    padding:40px ;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15;
+    font-weight: bold;
+
+}
+table{
+    font-size: 15;
+    color: blue;
+}
+textarea{
+    font-size: 14;
+    color: green;
+    padding: auto;
+}
