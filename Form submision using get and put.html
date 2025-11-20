@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Form practise</title>
+        <style>
+            body{
+                font-size: 22;
+                font-family: 'Times New Roman', Times, serif;
+                padding: auto;
+
+            }
+            select{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-weight: bold;
+                color: lime;
+                width: 100px;
+            
+            }
+        </style>
+    </head>
+    <body>
+<h1>Fill in the below form</h1>
+<form action="/action_php.page" method="get">
+
+Email    <input type="email" name="email" placeholder="rumbie@gmail.com" autofocus><br>
+Name     <input type="text" name="name" autocapitalize="name"><br>
+Address  <input type="text" name="address"><br>
+username <input type="text" name="username"><br>
+password <input type="password" name="password"><br>
+Reason for entry<textarea placeholder="write here"></textarea><br>
+
+<label for="cars">Cars Available</label><select id="cars" name="cars">
+    <option value="Volvo">Volvo</option>
+    <option value="Toyota">Toyota</option>
+    <option value="Benz">Benz</option>
+    <option value="Nissan">Nissan</option>
+    
+</select><br>
+<input type="submit" value="submit">
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
+
+
+
+
+    </body>
+</html>
